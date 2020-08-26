@@ -1,0 +1,10 @@
+---
+applications:
+- name: LeeTaeHee-egovadmin
+  memory: 512M
+  host: LeeTaeHee-egovadmin
+  domain: paas-ta.org
+  services:
+  - LeeTaeHee-egov-db
+  instances: 1
+  disk_quota: 512M
